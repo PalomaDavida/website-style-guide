@@ -1,0 +1,113 @@
+
+* {
+    text-align: center;
+}
+.rectangle {
+    width: 300px; /* Set width of rectangle */
+    height: 150px; /* Set height of rectangle */
+    color: black; /* Text color */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-size: 20px; /* Text size */
+    border: 2px solid transparent; /* Add a border */
+    border-radius: 8px; /* Optional: Rounded corners */
+    margin: 50px auto; /* Center the rectangle on the page */
+    text-align: center; /* Align text in case it wraps */
+    flex-direction:column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rectangle span {
+    margin: 5px 0; /* Spacing between lines */
+    text-align: center; /* Center-align each line */
+}
+
+.container {
+        display: flex; /* Use Flexbox */
+        justify-content: space-between; /* Optional: Add space between rectangles */
+        gap: 20px; /* Optional: Add consistent spacing between rectangles */
+        padding: 20px;
+}
+ul{
+    
+    display: inline-block;
+    text-align: left;
+
+}
+
+/* Unique Colors for Each Rectangle */
+.mintgreen-rectangle {
+    background-color: #ccd5ae;
+}
+
+.cream-rectangle {
+    background-color: #fefae0; 
+}
+
+.beige-rectangle {
+    background-color: #faedcd;
+}
+.orange-rectangle {
+background-color: #d4a373;
+}
+.carrois-gothic-regular {
+    font-family: "Carrois Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+  .poiret-one-regular {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+  .funnel-sans {
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }    
+  .bold {
+    font-weight: bold;
+
+  }
+  .italic {
+    font-style: italic;
+  }
+
+#left {
+    
+    display:inline-block;
+    padding: 20px;
+}
+#center {
+   
+    display:inline-block;
+    padding: 20px;
+}
+#right {
+    
+    display:inline-block;
+    padding: 20px;
+}
+
+h3 {
+    text-decoration: underline;
+}
+.heading {
+    Font-weight: 700 (bold);
+    Font-size: 26px;
+    Font-family: "Carrois Gothic";
+}
+.subheading {
+    Font-weight: 500;
+    Font-size: 18px;
+    Font-family:"Funnel Sans";
+    font-weight:bold ;
+}
+.paragraph {
+    Font-weight: 400 (regular);
+    Font-size: 16px;
+    Font-family: "poiret one";
+}
